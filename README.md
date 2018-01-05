@@ -11,3 +11,16 @@ binlog_format = row
 
 GRANT REPLICATION SLAVE, REPLICATION CLIENT, SELECT ON *.* TO 'user'@'localhost'
 
+
+# NPM
+
+#### npm install mysql-live-select --save
+#### npm install socket.io --save
+
+depois instalar o PM2 para gerenciar seus nodes run.
+
+#### npm install pm2 -g 
+
+
+
+
