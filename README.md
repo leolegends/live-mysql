@@ -9,4 +9,5 @@ sync_binlog     = 1
 log_bin = /var/log/mysql/mysql-bin.log
 binlog_format = row
 
+GRANT REPLICATION SLAVE, REPLICATION CLIENT, SELECT ON *.* TO 'user'@'localhost'
 
